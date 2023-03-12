@@ -1,6 +1,6 @@
 import json
 from restkit import request
-#Enter username here.
+#Enter username here
 USER = 'CodeMaster7000'
 def count_user_commits(user):
     r = request('https://api.github.com/users/%s/repos' % user)
